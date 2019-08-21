@@ -1,0 +1,441 @@
+body {
+    font-family: 'Hind', sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+.container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 0;
+    margin-top: 0;
+    width: 100%;
+}
+
+#banner {
+  background-color: #0000CD;
+  color: white;
+  padding: 100px 0 60px 60px;
+  /*right padding was 290px*/
+  font-family: 'Open Sans', sans-serif;
+  font-size: 65px;
+  margin-top: 0;
+  Margin-right: 0;
+  /*Margin-bottom: 60px;*/
+  margin-bottom: 0;
+  text-decoration: underline;
+  text-decoration-color: pink;
+  width: 100%;
+}
+
+.flex-nav {
+  list-style: none;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /*padding: 0;*/
+  padding-left: 60px;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  width: 100%;
+}
+
+.flex-nav li {
+  padding: 1rem;
+  font-size: 1.3em
+}
+
+a {
+  text-decoration: none;
+  color: #0000CD;
+}
+
+a:hover {
+  color:pink;
+}
+
+.buttons {
+    width: 600px;
+}
+
+button {
+  border: 2px solid #0000CD;
+  padding: 15px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  margin-bottom: 30px;
+  /*cursor: pointer;*/
+  box-shadow: 3px 3px 8px 1px gray;
+}
+
+button:hover {
+  border: 2px solid pink;
+}
+
+span {
+  font-size: 20px;
+}
+
+input {
+  border: 2px solid #0000CD;
+  padding: 5px  0  5px  10px;
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+input:hover {
+  border: 2px solid pink;
+}
+
+.gif {
+  height: 300px;
+  width: auto;
+  margin-left: 30%;
+  margin-top: 8%;
+  margin-bottom: 6%;
+}
+
+
+#leftdiv {
+    /*border: 2px solid #0000CD;*/
+    width: 50%;
+    margin-left: 12%;
+    /*margin-right: auto;*/
+    margin-bottom: 10%;
+    /*box-shadow: 5px 5px 20px 1px gray;*/
+}
+
+#rightdiv {
+    width: 50%;
+    /*margin-left: 2%;*/
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.invitation {
+     /*background-image: url('https://zealnyc.com/wp-content/uploads/2015/12/Guggenheim-agnes-martin.jpg'); */
+    background-color: #fffdef;
+    /*opacity: 0.9*/
+    font-size: 20px;
+    max-width: 736.5px;
+    width: 100%;
+    /*width: 590px;*/
+    height: 700px;
+    box-shadow: 3px 3px 20px 1px gray;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-right: auto;*/
+}
+
+.basic {
+  background-image: url('https://webgradients.com/public/webgradients_png/049%20Fresh%20Milk.png');
+  /*background-color: mistyrose;*/
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-style: normal;
+  color: black;
+  /*width: 590px;*/
+  height: 700px;
+  box-shadow: 3px 3px 20px 1px gray;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.basic #second {
+  /*font-size: 29px;*/
+  /*font-weight: bold;*/
+}
+
+.kismet {
+  background-image: url('https://i.imgur.com/EuINMlX.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Fondamento', cursive;
+  /*font-style: italic;*/
+  font-style: oblique;
+  font-size: 24px;
+  color: #003366;
+  /*width: 590;*/
+  height: 700px;
+  box-shadow: 3px 3px 20px 1px gray;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+
+.elegant {
+  background-image: url('https://i.imgur.com/lTGqACp.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Parisienne', cursive;
+  font-size: 22px;
+  font-style: normal;
+  color: black;
+  /*width: 590;*/
+  /*height: 700px;*/
+  box-shadow: 3px 3px 20px 1px gray;
+  text-align: center;
+  padding-top: 130px;
+}
+
+
+.elegant #second {
+  font-weight: bold;
+}
+.elegant p {
+  font-size: 24px;
+}
+.elegant #pick-date {
+  font-size: 20px;
+}
+
+.footer{
+  background-color: #0000CD;
+  color: pink;
+  padding: 60px 0px 40px 60px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 65px;
+  text-align: right;
+  /*margin-top: 80px;*/
+  margin-bottom: 0;
+  margin-right: 0;
+  width: auto;
+  /*height: 100%;*/
+}
+
+.footer a {
+  text-decoration: none;
+  color: pink;
+  /*margin-right: 115px;*/
+  margin-bottom: 0;
+  padding-right: 100px;
+}
+
+#imgdiv {
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+#snoopy {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+@media (max-device-width: 1200px){
+  /*Make banner font, a fonts, buttons, inputs and fields a bit smaller, keep it the same for mobile maybe*/
+  #banner {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    padding: 80px 0 50px 60px;
+  }
+  
+  .flex-nav li {
+  padding: 1rem;
+  font-size: 1.1em
+  }
+
+  .buttons {
+    width: 350px;
+  }
+  
+  button {
+  padding: 12px 25px;
+  font-size: 13px;
+  }
+
+  span {
+  font-size: 17px;
+  }
+
+  input {
+  border: 2px solid #0000CD;
+  padding: 5px  0  5px  10px;
+  width: 315px;
+  height: 30px;
+  font-size: 18px;
+  }
+  
+  .gif {
+  height: 250px;
+  width: auto;
+  margin-left: 40%;
+  margin-top: 5%;
+  margin-bottom: 50%;
+}
+
+#rightdiv {
+  margin-left: 0;
+}
+  
+  .invitation {
+    background-color: #fffdef;
+    /*opacity: 0.9*/
+    font-size: 18px;
+    width: 100%;
+    height: 700px;
+    box-shadow: 3px 3px 20px 1px gray;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    margin-left: 22%;
+    /*margin-right: 5%;*/
+  }
+  
+  .basic {
+    font-size: 20px;
+     width: 100%;
+    height: 700px;
+  }
+  
+  .kismet {
+    font-size: 22px;
+     width: 100%;
+    height: 700px;
+  }
+  
+  .elegant {
+    font-size: 20px;
+    background-size: cover;
+    padding-top: 150px;
+     
+  }
+}
+
+@media (max-device-width: 850px){
+  .container{
+  flex-direction: row;
+  align-items: center;
+}
+  
+  #banner {
+    /*font-size: 2.8rem;*/
+    font-size: 40px;
+    margin: 0;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    width: 100%;
+    padding: 70px 0 50px 60px;
+  }
+  
+  .flex-nav {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .gif {
+    /*display: none;*/
+    margin-top: 8%;
+    margin-left: 87%;
+    margin-right: auto;
+    margin-bottom: 6%;
+  }
+  
+  input {
+    margin-left: 65%;
+    margin-right: auto;
+  }
+  
+  span {
+    margin-left: 65%;
+    margin-right: auto;
+  }
+  
+  .buttons {
+    margin-left: 64%;
+    margin-right: auto;
+  }
+  
+  #leftdiv {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+  }
+  #rightdiv {
+    margin-left: 0;
+    margin-right: 0;
+    width: 600px;
+    /*height: 400px;*/
+    margin-bottom: 6%;
+  }
+  
+  .invitation {
+    width: 600px;
+    margin-bottom: 70px;
+    margin-left: 14%;
+  }
+  
+  .elegant {
+    padding-top: 165px;
+    width: 100%;
+    height: 700px;
+  }
+}
+
+@media (max-device-width: 425px){
+  .container {
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+/*Make it all even smaller*/
+#banner {
+  /*width: 100%;*/
+  height: auto;
+  font-size: 26px;
+  margin: 0;
+}
+
+#leftdiv{
+  width: 100%;
+}
+
+#rightdiv {
+  width: 100%;
+  /*margin-left: 0;*/
+  /*margin-right: 30%;*/
+}
+
+.invation {
+  /*width: 90%;*/
+  /*margin-left: 0;*/
+  margin-right: 305;
+}
+
+.basic {
+  /*width: 90%;*/
+}
+
+.kismet {
+  /*width: 90%;*/
+}
+
+.elegant {
+  /*width: 90%;*/
+}
+}

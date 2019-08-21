@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <title>You're Invited!</title>
+    <link href="index.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fondamento" rel="stylesheet">
+  </head>
+  <body>
+    <!--<h1 id="banner">Online Wedding Invitation Designer</h1>-->
+    <div class="container">
+      <h1 id="banner">Wedding Invitation Designer</h1>
+          <ul class="flex-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="../About.html">About</a></li>
+            <li><a href="mailto:ar.moeller1@gmail.com">Contact</a></li>
+          </ul>
+        <div class="sections">
+            <div id="leftdiv">
+                <div class="buttons">
+                    <button type="button" name="button" id="button1">Simple</button>
+                    <button type="button" name="button" id="button2">Kismet</button>
+                    <button type="button" name="button" id="button3">Elegant</button>
+            </div>
+                <div class="inputfields">
+                <span>First Name</span><br>
+                <input type="text" id="First-Name"><br>
+                <span>Second Name</span><br>
+                <input type="text" id="Second-Name"><br>
+                <span>Last Name</span><br>
+                <input type="text" id="Last-Name"><br>
+                <span>Date</span><br>
+                <input type="date" id="date" onchange="choosingDate(event)"><br>
+                <span>Location</span><br>
+                <input type="text" id="location"></div><br>
+                <!--<input type="color" id="color">-->
+                <img class= "gif" src="https://media.giphy.com/media/9J7iwDy14hVHbxotE2/giphy.gif" id="color">
+                </div>
+            </div>
+            <div id="rightdiv">
+                <div class="invitation">
+                  <!--<h1 id ="initials"></h1>-->
+                  <!--<h1 id="first"></h1>-->
+                  <h1 id="second"></h1><br>
+                  <p>You are invited to the wedding of</p>
+                  <h1 id="combined"></h1>
+                  <h1 id="last"></h1><br>
+                  <h2 id="pick-date"></h2>
+                  <h2 id="where"></h2>
+                </div>
+            </div>
+
+        </div>
+      <div class="footer">
+      <a href="https://www.youtube.com/watch?v=jPetQ6KrpgM" target="_blank">:)</a>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
